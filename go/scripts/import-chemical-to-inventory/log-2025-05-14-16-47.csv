@@ -1,0 +1,1129 @@
+FileRowNum,Type,Status,DatabaseID,ErrorMsg,ProcessedAt
+1,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+2,Check if chemical already exists,success,b2aae1a6-54f1-4d26-ad16-14c35221e489,,2025-05-14T16:47:59-07:00
+3,Check if chemical already exists,success,052c6c9b-efed-425d-b536-55d9bcff0df1,,2025-05-14T16:47:59-07:00
+4,Check if chemical already exists,success,6b534a9d-1c1a-4643-abb6-1960bbf8dd3b,,2025-05-14T16:47:59-07:00
+5,Check if chemical already exists,success,6eda3da2-e7bd-47ce-8d21-326b9a0873e6,,2025-05-14T16:47:59-07:00
+6,Check if chemical already exists,success,6eda3da2-e7bd-47ce-8d21-326b9a0873e6,,2025-05-14T16:47:59-07:00
+7,Check if chemical already exists,success,c9db7273-7eb3-4b50-adef-dce1f2aa1b4a,,2025-05-14T16:47:59-07:00
+8,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+9,Check if chemical already exists,success,6eeae0d3-b384-45ad-a621-706d1b81f7b0,,2025-05-14T16:47:59-07:00
+10,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+11,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+12,Check if chemical already exists,success,186c4b03-f59a-4309-b4f0-add38a11ec36,,2025-05-14T16:47:59-07:00
+13,Check if chemical already exists,success,08f5767d-9330-4793-828a-e7e59dfa388b,,2025-05-14T16:47:59-07:00
+14,Check if chemical already exists,success,b2aae1a6-54f1-4d26-ad16-14c35221e489,,2025-05-14T16:47:59-07:00
+15,Check if chemical already exists,success,12331d53-b044-4b5e-9825-8dd798cda1f7,,2025-05-14T16:47:59-07:00
+16,Check if chemical already exists,success,948282ee-eb93-4680-9420-7803c9f6a971,,2025-05-14T16:47:59-07:00
+17,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+18,Check if chemical already exists,success,013353d0-eb86-4e68-9f7b-835ead2ef7a7,,2025-05-14T16:47:59-07:00
+19,Check if chemical already exists,success,013353d0-eb86-4e68-9f7b-835ead2ef7a7,,2025-05-14T16:47:59-07:00
+20,Check if chemical already exists,success,dd27b436-65fe-4ee9-bf15-65bf0a1903cd,,2025-05-14T16:47:59-07:00
+21,Check if chemical already exists,success,dd27b436-65fe-4ee9-bf15-65bf0a1903cd,,2025-05-14T16:47:59-07:00
+22,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,2-bis(trimethoxysilyl)ethane already exists
+",2025-05-14T16:47:59-07:00
+23,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,2-dimethoxyethane already exists
+",2025-05-14T16:47:59-07:00
+24,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,2-dimethoxyethane already exists
+",2025-05-14T16:47:59-07:00
+25,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,2-propanediol already exists
+",2025-05-14T16:47:59-07:00
+26,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+27,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+28,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,2,4-benzenetricarboxylic acid already exists
+",2025-05-14T16:47:59-07:00
+29,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+30,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+31,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,4-butanediol diacrylate already exists
+",2025-05-14T16:47:59-07:00
+32,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 1,4-butanediol diglycidyl ether already exists
+",2025-05-14T16:47:59-07:00
+33,Check if chemical already exists,success,d9665cdf-ae45-43fc-a500-d5b8350111bf,,2025-05-14T16:47:59-07:00
+34,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+35,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+36,Check if chemical already exists,success,f813735c-fed3-4d4d-9226-0ef8de6fc2c5,,2025-05-14T16:47:59-07:00
+37,Check if chemical already exists,success,e42c8909-8d2c-4214-96a5-34ac40b924c6,,2025-05-14T16:47:59-07:00
+38,Check if chemical already exists,success,14cdb366-54e8-4055-a2f0-8ba1060c725b,,2025-05-14T16:47:59-07:00
+39,Check if chemical already exists,success,14cdb366-54e8-4055-a2f0-8ba1060c725b,,2025-05-14T16:47:59-07:00
+40,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+41,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+42,Check if chemical already exists,success,8d241261-7e1e-48be-88ee-53ab8bf0d58c,,2025-05-14T16:47:59-07:00
+43,Check if chemical already exists,success,f543a854-f1e1-4640-aa93-62c13e8a580e,,2025-05-14T16:47:59-07:00
+44,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+45,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+46,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+47,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+48,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+49,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+50,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+51,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+52,Check if chemical already exists,success,91e4f483-3252-4da9-9698-a4f82ab68f0f,,2025-05-14T16:47:59-07:00
+53,Check if chemical already exists,success,2e9c1d7c-5937-4da4-83f9-b67b69f26456,,2025-05-14T16:47:59-07:00
+54,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+55,Check if chemical already exists,success,83a017af-4622-4212-88d6-9c90b26d8006,,2025-05-14T16:47:59-07:00
+56,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+57,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+58,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+59,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+60,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+61,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+62,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+63,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+64,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+65,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+66,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+67,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+68,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+69,Check if chemical already exists,success,8675abb7-b9bc-41cc-95e6-b46a76020e8f,,2025-05-14T16:47:59-07:00
+70,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 2,2-dimethoxy-2-phenylacetophenone already exists
+",2025-05-14T16:47:59-07:00
+71,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+72,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+73,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 2,3-butanediol already exists
+",2025-05-14T16:47:59-07:00
+74,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+75,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+76,Check if chemical already exists,success,b606fd3f-9f9e-4400-b223-dd64dd8b4abe,,2025-05-14T16:47:59-07:00
+77,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+78,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+79,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+80,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+81,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+82,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+83,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+84,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+85,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+86,Check if chemical already exists,success,2579dd0b-fc37-413c-9b65-b9033c2d9b38,,2025-05-14T16:47:59-07:00
+87,Check if chemical already exists,success,7fc53dd8-b545-4d44-aa27-f5b9d4455dce,,2025-05-14T16:47:59-07:00
+88,Check if chemical already exists,success,830ca0a8-3efa-4716-a290-50cc3d853710,,2025-05-14T16:47:59-07:00
+89,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name 4,4'-methylenebis(cyclohexyl isocyanate) already exists
+",2025-05-14T16:47:59-07:00
+90,Check if chemical already exists,success,201735e5-b94d-4ec6-a8d1-33399300157a,,2025-05-14T16:47:59-07:00
+91,Check if chemical already exists,success,201735e5-b94d-4ec6-a8d1-33399300157a,,2025-05-14T16:47:59-07:00
+92,Check if chemical already exists,success,40509d05-29d2-49fa-96ce-c6ecc467679e,,2025-05-14T16:47:59-07:00
+93,Check if chemical already exists,success,4a534e16-b1d8-4b29-aa34-2fa243df1278,,2025-05-14T16:47:59-07:00
+94,Check if chemical already exists,success,4a534e16-b1d8-4b29-aa34-2fa243df1278,,2025-05-14T16:47:59-07:00
+95,Check if chemical already exists,success,4a534e16-b1d8-4b29-aa34-2fa243df1278,,2025-05-14T16:47:59-07:00
+96,Check if chemical already exists,success,4a534e16-b1d8-4b29-aa34-2fa243df1278,,2025-05-14T16:47:59-07:00
+97,Check if chemical already exists,success,4a534e16-b1d8-4b29-aa34-2fa243df1278,,2025-05-14T16:47:59-07:00
+98,Check if chemical already exists,success,655dd3a7-9a2d-4ef1-8565-12bb42db0984,,2025-05-14T16:47:59-07:00
+99,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+100,Check if chemical already exists,success,3c74eb08-220e-4712-85e7-9a34126288d8,,2025-05-14T16:47:59-07:00
+101,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+102,Check if chemical already exists,success,efe7f934-23fb-4884-81dd-46f29d1c9aa7,,2025-05-14T16:47:59-07:00
+103,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+104,Check if chemical already exists,success,7eee4d3f-8dfb-40d0-b126-46c10ac697d6,,2025-05-14T16:47:59-07:00
+105,Check if chemical already exists,success,93095970-5d21-4c97-8103-3949cbbe8dd4,,2025-05-14T16:47:59-07:00
+106,Check if chemical already exists,success,93095970-5d21-4c97-8103-3949cbbe8dd4,,2025-05-14T16:47:59-07:00
+107,Check if chemical already exists,success,93095970-5d21-4c97-8103-3949cbbe8dd4,,2025-05-14T16:47:59-07:00
+108,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+109,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+110,Check if chemical already exists,success,9b7c9d1a-0611-4ba4-b5ad-98b5dc5ab341,,2025-05-14T16:47:59-07:00
+111,Check if chemical already exists,success,9b7c9d1a-0611-4ba4-b5ad-98b5dc5ab341,,2025-05-14T16:47:59-07:00
+112,Check if chemical already exists,success,9b7c9d1a-0611-4ba4-b5ad-98b5dc5ab341,,2025-05-14T16:47:59-07:00
+113,Check if chemical already exists,success,9b7c9d1a-0611-4ba4-b5ad-98b5dc5ab341,,2025-05-14T16:47:59-07:00
+114,Check if chemical already exists,success,9b7c9d1a-0611-4ba4-b5ad-98b5dc5ab341,,2025-05-14T16:47:59-07:00
+115,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+116,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+117,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+118,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+119,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+120,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:47:59-07:00
+121,Check if chemical already exists,success,0522a7a2-49ee-4f1c-89cb-f40f8d745836,,2025-05-14T16:47:59-07:00
+122,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+123,Check if chemical already exists,success,6556a57c-64d1-4b5e-a68a-852003f91b25,,2025-05-14T16:47:59-07:00
+124,Check if chemical already exists,success,6556a57c-64d1-4b5e-a68a-852003f91b25,,2025-05-14T16:47:59-07:00
+125,Check if chemical already exists,success,74c6ccc4-25c6-4d70-a830-42eb1ea332f6,,2025-05-14T16:47:59-07:00
+126,Check if chemical already exists,success,e2784382-9635-4fbb-9208-0cc57c111127,,2025-05-14T16:47:59-07:00
+127,Check if chemical already exists,success,c1a17fb5-7d2a-40e0-84d3-eb8072857296,,2025-05-14T16:47:59-07:00
+128,Check if chemical already exists,success,75bb4b87-c500-4c4d-88f1-2c95c9f6f5b1,,2025-05-14T16:47:59-07:00
+129,Check if chemical already exists,success,98f24df1-ddc1-4f94-a749-9dce54f492c8,,2025-05-14T16:47:59-07:00
+130,Check if chemical already exists,success,16c7718f-62e4-42e9-b72a-8349b8ee611d,,2025-05-14T16:47:59-07:00
+131,Check if chemical already exists,success,2d4fe862-12d6-46b2-b854-412774a296ea,,2025-05-14T16:47:59-07:00
+132,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+133,Check if chemical already exists,success,d7a7e294-3207-42b5-bedc-873efd6499cb,,2025-05-14T16:47:59-07:00
+134,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+135,Check if chemical already exists,success,accd7404-bf5e-4050-982a-5f06997ec5e9,,2025-05-14T16:47:59-07:00
+136,Check if chemical already exists,success,accd7404-bf5e-4050-982a-5f06997ec5e9,,2025-05-14T16:47:59-07:00
+137,Check if chemical already exists,success,5a81d260-7a11-40e6-8b93-a0891de1ad6d,,2025-05-14T16:47:59-07:00
+138,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+139,Check if chemical already exists,success,ee2f3af3-b0d2-4b24-9e6c-7dcbd8b1fb49,,2025-05-14T16:47:59-07:00
+140,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+141,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+142,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+143,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+144,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+145,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+146,Check if chemical already exists,success,b4c81e18-4feb-4bdf-9532-bf8e1caaefa1,,2025-05-14T16:47:59-07:00
+147,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+148,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+149,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+150,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+151,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+152,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+153,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+154,Check if chemical already exists,success,a167015e-04c6-49ef-b141-453a36ad159f,,2025-05-14T16:47:59-07:00
+155,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+156,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+157,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+158,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+159,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+160,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+161,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+162,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+163,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+164,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+165,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+166,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+167,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+168,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+169,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+170,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+171,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+172,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+173,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+174,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+175,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+176,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+177,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+178,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+179,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+180,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+181,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+182,Check if chemical already exists,success,d9263457-8b61-4ffc-ac9a-83da932691a7,,2025-05-14T16:47:59-07:00
+183,Check if chemical already exists,success,f3c6e85e-b983-44c8-9f83-4e9e2600adb8,,2025-05-14T16:47:59-07:00
+184,Validate row,missing required fields,,missing recipe title,2025-05-14T16:47:59-07:00
+185,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:47:59-07:00
+186,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:47:59-07:00
+187,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:48:00-07:00
+188,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:48:00-07:00
+189,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:48:00-07:00
+190,Check if chemical already exists,success,2d8fad38-ee92-473d-b6e0-7fa0bd477514,,2025-05-14T16:48:00-07:00
+191,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+192,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+193,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+194,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+195,Check if chemical already exists,success,a0db78b7-a7f9-4ddf-b2b3-4a8c269a84d3,,2025-05-14T16:48:00-07:00
+196,Check if chemical already exists,success,d2ba5ffd-0650-4375-b240-d7e92266028e,,2025-05-14T16:48:00-07:00
+197,Check if chemical already exists,success,8962fe26-c218-4abd-86df-f7e2e241bd6b,,2025-05-14T16:48:00-07:00
+198,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+199,Check if chemical already exists,success,a75b0348-b7b7-4a49-aad8-4fa714a4c981,,2025-05-14T16:48:00-07:00
+200,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+201,Check if chemical already exists,success,f1a97521-32f8-4b04-bf04-dea20d9d90b0,,2025-05-14T16:48:00-07:00
+202,Check if chemical already exists,success,ec9bc33f-7ac3-494c-a6f8-336bb3c12cfc,,2025-05-14T16:48:00-07:00
+203,Check if chemical already exists,success,f1a97521-32f8-4b04-bf04-dea20d9d90b0,,2025-05-14T16:48:00-07:00
+204,Check if chemical already exists,success,db62408f-0a27-4a1a-b1e4-0cd662efc00d,,2025-05-14T16:48:00-07:00
+205,Check if chemical already exists,success,a3173623-2ee4-4afe-a580-5b3cefa5cc24,,2025-05-14T16:48:00-07:00
+206,Check if chemical already exists,success,4ce67e5b-7295-469f-b700-e12f24a8137d,,2025-05-14T16:48:00-07:00
+207,Check if chemical already exists,success,4ce67e5b-7295-469f-b700-e12f24a8137d,,2025-05-14T16:48:00-07:00
+208,Check if chemical already exists,success,4ce67e5b-7295-469f-b700-e12f24a8137d,,2025-05-14T16:48:00-07:00
+209,Check if chemical already exists,success,4ce67e5b-7295-469f-b700-e12f24a8137d,,2025-05-14T16:48:00-07:00
+210,Check if chemical already exists,success,4ce67e5b-7295-469f-b700-e12f24a8137d,,2025-05-14T16:48:00-07:00
+211,Check if chemical already exists,success,ec19da7f-df93-4acb-8c3e-f6b7a20a0107,,2025-05-14T16:48:00-07:00
+212,Check if chemical already exists,success,00bed6d0-31fe-4809-880e-75b54e02d845,,2025-05-14T16:48:00-07:00
+213,Check if chemical already exists,success,3213ee33-2e7a-4531-a141-5bdb455092f6,,2025-05-14T16:48:00-07:00
+214,Check if chemical already exists,success,3213ee33-2e7a-4531-a141-5bdb455092f6,,2025-05-14T16:48:00-07:00
+215,Check if chemical already exists,success,799529ad-48ba-4010-9ae8-f8b80ff50df5,,2025-05-14T16:48:00-07:00
+216,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+217,Check if chemical already exists,success,a6d0ea3f-b7ba-430f-9fab-8b151bf98812,,2025-05-14T16:48:00-07:00
+218,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+219,Check if chemical already exists,success,646e609a-e832-4278-ac2a-a7f355fa63d1,,2025-05-14T16:48:00-07:00
+220,Check if chemical already exists,success,86ecb0ea-0a45-44c7-b6bd-ee47666e31dc,,2025-05-14T16:48:00-07:00
+221,Check if chemical already exists,success,86ecb0ea-0a45-44c7-b6bd-ee47666e31dc,,2025-05-14T16:48:00-07:00
+222,Check if chemical already exists,success,f6f0a219-85e6-4b98-97be-57773fbecad5,,2025-05-14T16:48:00-07:00
+223,Check if chemical already exists,success,f6f0a219-85e6-4b98-97be-57773fbecad5,,2025-05-14T16:48:00-07:00
+224,Check if chemical already exists,success,ffc903d5-8e7a-483f-af96-91f11c4933b2,,2025-05-14T16:48:00-07:00
+225,Check if chemical already exists,success,a984559d-721d-4499-87c6-596715715f4d,,2025-05-14T16:48:00-07:00
+226,Check if chemical already exists,success,a984559d-721d-4499-87c6-596715715f4d,,2025-05-14T16:48:00-07:00
+227,Check if chemical already exists,success,a984559d-721d-4499-87c6-596715715f4d,,2025-05-14T16:48:00-07:00
+228,Check if chemical already exists,success,a984559d-721d-4499-87c6-596715715f4d,,2025-05-14T16:48:00-07:00
+229,Check if chemical already exists,success,a984559d-721d-4499-87c6-596715715f4d,,2025-05-14T16:48:00-07:00
+230,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+231,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+232,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+233,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+234,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+235,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+236,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+237,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+238,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+239,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+240,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+241,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+242,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+243,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+244,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+245,Check if chemical already exists,success,9293bdf2-a691-4c97-86d6-e8136e491219,,2025-05-14T16:48:00-07:00
+246,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+247,Check if chemical already exists,success,e0584c01-3980-4da7-87be-c6cca824dd7c,,2025-05-14T16:48:00-07:00
+248,Check if chemical already exists,success,fb56f2a2-0e85-488e-979e-bd251c7e424e,,2025-05-14T16:48:00-07:00
+249,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+250,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+251,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+252,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+253,Check if chemical already exists,success,fab18acd-266e-435b-ab2f-82c1053b7720,,2025-05-14T16:48:00-07:00
+254,Check if chemical already exists,success,a54265c7-e90e-4721-9d3e-934416c7c1fe,,2025-05-14T16:48:00-07:00
+255,Check if chemical already exists,success,4a5c5ff2-92e7-4908-9a34-995dbd4c462b,,2025-05-14T16:48:00-07:00
+256,Check if chemical already exists,success,b26e3339-c893-4201-9824-8f03a835828e,,2025-05-14T16:48:00-07:00
+257,Check if chemical already exists,success,36571482-da4f-4fa6-9132-949e3f811a18,,2025-05-14T16:48:00-07:00
+258,Check if chemical already exists,success,c3ca4208-5a02-4a37-a913-62e96a63f3a9,,2025-05-14T16:48:00-07:00
+259,Check if chemical already exists,success,fd612fef-f343-4001-b677-4e52e6807c60,,2025-05-14T16:48:00-07:00
+260,Check if chemical already exists,success,a689875a-acfe-4dc6-bc9c-a8443583e8d0,,2025-05-14T16:48:00-07:00
+261,Check if chemical already exists,success,a689875a-acfe-4dc6-bc9c-a8443583e8d0,,2025-05-14T16:48:00-07:00
+262,Check if chemical already exists,success,a689875a-acfe-4dc6-bc9c-a8443583e8d0,,2025-05-14T16:48:00-07:00
+263,Check if chemical already exists,success,a689875a-acfe-4dc6-bc9c-a8443583e8d0,,2025-05-14T16:48:00-07:00
+264,Check if chemical already exists,success,7cb758a5-a09d-46d1-8b74-b9b265a650b2,,2025-05-14T16:48:00-07:00
+265,Check if chemical already exists,success,9a1e60c1-e200-4295-ba46-5cc048dcd989,,2025-05-14T16:48:00-07:00
+266,Check if chemical already exists,success,037bf8ac-3094-4333-a47c-4724d2e07489,,2025-05-14T16:48:00-07:00
+267,Check if chemical already exists,success,037bf8ac-3094-4333-a47c-4724d2e07489,,2025-05-14T16:48:00-07:00
+268,Check if chemical already exists,success,80c84d34-473f-4731-b39b-13a0ab65e88d,,2025-05-14T16:48:00-07:00
+269,Check if chemical already exists,success,301f1f89-d6d5-4d45-b661-e34177df3815,,2025-05-14T16:48:00-07:00
+270,Check if chemical already exists,success,301f1f89-d6d5-4d45-b661-e34177df3815,,2025-05-14T16:48:00-07:00
+271,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+272,Check if chemical already exists,success,2fadc3b5-4fcc-4374-a8c5-1c0eb9b45e0e,,2025-05-14T16:48:00-07:00
+273,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+274,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+275,Check if chemical already exists,success,60992498-8a8c-4b3e-8cde-bea849d4c6ad,,2025-05-14T16:48:00-07:00
+276,Check if chemical already exists,success,60992498-8a8c-4b3e-8cde-bea849d4c6ad,,2025-05-14T16:48:00-07:00
+277,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+278,Check if chemical already exists,success,0dbf50a3-372c-43bf-8eb8-2808876230e0,,2025-05-14T16:48:00-07:00
+279,Check if chemical already exists,success,485eceda-5693-4880-a6b1-8d0517b42694,,2025-05-14T16:48:00-07:00
+280,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+281,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+282,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+283,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+284,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+285,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+286,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+287,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+288,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+289,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+290,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+291,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+292,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+293,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+294,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+295,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+296,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+297,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+298,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+299,Check if chemical already exists,success,9bb2d713-cfaa-4120-bda0-707721ab3ac0,,2025-05-14T16:48:00-07:00
+300,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+301,Check if chemical already exists,success,cbb5a9e4-943b-40dc-8196-7f2bfd8b5e4e,,2025-05-14T16:48:00-07:00
+302,Check if chemical already exists,success,3984e885-4619-4f30-b220-7d994f9c7dc5,,2025-05-14T16:48:00-07:00
+303,Check if chemical already exists,success,b2c0e81d-9abd-4c65-89ed-ab22cec61a54,,2025-05-14T16:48:00-07:00
+304,Check if chemical already exists,success,b2c0e81d-9abd-4c65-89ed-ab22cec61a54,,2025-05-14T16:48:00-07:00
+305,Check if chemical already exists,success,b2c0e81d-9abd-4c65-89ed-ab22cec61a54,,2025-05-14T16:48:00-07:00
+306,Check if chemical already exists,success,b2c0e81d-9abd-4c65-89ed-ab22cec61a54,,2025-05-14T16:48:00-07:00
+307,Check if chemical already exists,success,af3b133a-809f-4515-9fac-3892197a87b1,,2025-05-14T16:48:00-07:00
+308,Check if chemical already exists,success,af3b133a-809f-4515-9fac-3892197a87b1,,2025-05-14T16:48:00-07:00
+309,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+310,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+311,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+312,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+313,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+314,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+315,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+316,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+317,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+318,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+319,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+320,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+321,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+322,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+323,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+324,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+325,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+326,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+327,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+328,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+329,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+330,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+331,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+332,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+333,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+334,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+335,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+336,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+337,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+338,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+339,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+340,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+341,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+342,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+343,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+344,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+345,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+346,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+347,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+348,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+349,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+350,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+351,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+352,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+353,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+354,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+355,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+356,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+357,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+358,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+359,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+360,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+361,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+362,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+363,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+364,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+365,Check if chemical already exists,success,a22c69c5-de52-4de1-b612-6175c69126ec,,2025-05-14T16:48:00-07:00
+366,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+367,Check if chemical already exists,success,d44b97ee-d562-4390-972f-85dc85a07e4b,,2025-05-14T16:48:00-07:00
+368,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+369,Check if chemical already exists,success,24fb27a0-0f46-4f99-80a9-1445fbd40b35,,2025-05-14T16:48:00-07:00
+370,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+371,Check if chemical already exists,success,84655c4f-ba6a-47f2-8802-ce53bb723079,,2025-05-14T16:48:00-07:00
+372,Check if chemical already exists,success,84655c4f-ba6a-47f2-8802-ce53bb723079,,2025-05-14T16:48:00-07:00
+373,Check if chemical already exists,success,a2c7067f-6bc1-4559-b89e-c4c57083d954,,2025-05-14T16:48:00-07:00
+374,Check if chemical already exists,success,a2c7067f-6bc1-4559-b89e-c4c57083d954,,2025-05-14T16:48:00-07:00
+375,Check if chemical already exists,success,a2c7067f-6bc1-4559-b89e-c4c57083d954,,2025-05-14T16:48:00-07:00
+376,Check if chemical already exists,success,2374ea49-371e-4f2c-9b16-0712fdbd71f2,,2025-05-14T16:48:00-07:00
+377,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+378,Check if chemical already exists,success,8d12eb90-db7e-4466-b000-ead4162efd18,,2025-05-14T16:48:00-07:00
+379,Check if chemical already exists,success,434028b4-1d18-4eb8-aa5b-d42c81b40270,,2025-05-14T16:48:00-07:00
+380,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+381,Check if chemical already exists,success,466b8133-21a5-46cf-892b-aae9beb5f0d7,,2025-05-14T16:48:00-07:00
+382,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+383,Check if chemical already exists,success,cc2efc63-09ff-4ce7-8f98-5d2c4e7e09c7,,2025-05-14T16:48:00-07:00
+384,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+385,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+386,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+387,Check if chemical already exists,success,f9559bfd-1b89-4b78-a9f0-09c6e3175505,,2025-05-14T16:48:00-07:00
+388,Check if chemical already exists,success,3a0fcd9c-9ef6-4235-9ca3-62834a9533fa,,2025-05-14T16:48:00-07:00
+389,Check if chemical already exists,success,3a0fcd9c-9ef6-4235-9ca3-62834a9533fa,,2025-05-14T16:48:00-07:00
+390,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+391,Check if chemical already exists,success,b799e558-3782-4cd6-9e4b-9359e7c4eeda,,2025-05-14T16:48:00-07:00
+392,Check if chemical already exists,success,764d1ce6-c454-4254-b8a0-814847122284,,2025-05-14T16:48:00-07:00
+393,Check if chemical already exists,success,ebf6c025-342c-4351-99ee-06ae263276e2,,2025-05-14T16:48:00-07:00
+394,Check if chemical already exists,success,bd2cdea5-a3df-4e26-91b6-3e39c5c2bd74,,2025-05-14T16:48:00-07:00
+395,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+396,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+397,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+398,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+399,Check if chemical already exists,success,596bbbdc-4a86-4ac0-bcdb-8fd5c797c9a3,,2025-05-14T16:48:00-07:00
+400,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+401,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+402,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+403,Check if chemical already exists,success,32ec5485-0d14-412c-beb7-0faf97be9430,,2025-05-14T16:48:00-07:00
+404,Check if chemical already exists,success,2ef03c10-2472-4329-b2a1-8a310627c80a,,2025-05-14T16:48:00-07:00
+405,Check if chemical already exists,success,3c3bb50e-b0a7-4977-937b-496b3b6b1b94,,2025-05-14T16:48:00-07:00
+406,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+407,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+408,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+409,Check if chemical already exists,success,b0b46496-7eb0-472d-a5f3-c468c2f57f34,,2025-05-14T16:48:00-07:00
+410,Check if chemical already exists,success,fc4321e7-f3f6-456d-8281-a5fbac99f72f,,2025-05-14T16:48:00-07:00
+411,Check if chemical already exists,success,2e5e11b3-48b6-47eb-a0f9-964a654c685e,,2025-05-14T16:48:00-07:00
+412,Check if chemical already exists,success,b72073b7-3ed7-4ba2-9da2-d30b930dedbe,,2025-05-14T16:48:00-07:00
+413,Check if chemical already exists,success,b72073b7-3ed7-4ba2-9da2-d30b930dedbe,,2025-05-14T16:48:00-07:00
+414,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+415,Check if chemical already exists,success,cba91d4a-5453-4092-8d5f-75593c17185c,,2025-05-14T16:48:00-07:00
+416,Check if chemical already exists,success,6a55a401-1c76-4ddc-8a7f-bb456de51f94,,2025-05-14T16:48:00-07:00
+417,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+418,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+419,Check if chemical already exists,success,5b667845-4139-44b5-8994-73cf9d8dc8bc,,2025-05-14T16:48:00-07:00
+420,Check if chemical already exists,success,f5f15e44-baf8-4126-b0ed-ff82f0fee082,,2025-05-14T16:48:00-07:00
+421,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+422,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+423,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+424,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+425,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+426,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+427,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+428,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+429,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+430,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+431,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+432,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:00-07:00
+433,Check if chemical already exists,success,e2613c4f-de50-4096-9a5a-dadd7bee0dd7,,2025-05-14T16:48:00-07:00
+434,Check if chemical already exists,success,e2613c4f-de50-4096-9a5a-dadd7bee0dd7,,2025-05-14T16:48:00-07:00
+435,Check if chemical already exists,success,e2613c4f-de50-4096-9a5a-dadd7bee0dd7,,2025-05-14T16:48:01-07:00
+436,Check if chemical already exists,success,e2613c4f-de50-4096-9a5a-dadd7bee0dd7,,2025-05-14T16:48:01-07:00
+437,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+438,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+439,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+440,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+441,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+442,Check if chemical already exists,success,d5de4c1e-e9c7-409c-bef6-001ee6f0dd1a,,2025-05-14T16:48:01-07:00
+443,Check if chemical already exists,success,889b1af1-0af4-428a-b9a3-57f91ffd74ae,,2025-05-14T16:48:01-07:00
+444,Check if chemical already exists,success,1f1e962e-dde8-42fa-a902-32b7056dbcf4,,2025-05-14T16:48:01-07:00
+445,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+446,Check if chemical already exists,success,0e8a429c-a4b6-45f0-a488-1f61956d15c3,,2025-05-14T16:48:01-07:00
+447,Check if chemical already exists,success,9eeb569b-892e-48c3-96e1-d0bbf4b1730a,,2025-05-14T16:48:01-07:00
+448,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+449,Check if chemical already exists,success,b98fff7f-30bb-46f4-b780-cd61b5f07b9f,,2025-05-14T16:48:01-07:00
+450,Check if chemical already exists,success,8554a1b6-48cd-4e0e-9383-452ca96cb4b1,,2025-05-14T16:48:01-07:00
+451,Check if chemical already exists,success,8554a1b6-48cd-4e0e-9383-452ca96cb4b1,,2025-05-14T16:48:01-07:00
+452,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+453,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+454,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+455,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+456,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name lithium 2,4-pentanedionate already exists
+",2025-05-14T16:48:01-07:00
+457,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+458,Check if chemical already exists,success,566865c9-ce8a-417e-b7ff-c640ddb22d04,,2025-05-14T16:48:01-07:00
+459,Check if chemical already exists,success,2374ea49-371e-4f2c-9b16-0712fdbd71f2,,2025-05-14T16:48:01-07:00
+460,Check if chemical already exists,success,13bdfa53-782a-4c4a-a4ea-82bb35a93031,,2025-05-14T16:48:01-07:00
+461,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+462,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+463,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+464,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+465,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+466,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+467,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+468,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+469,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+470,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+471,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+472,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+473,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+474,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+475,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+476,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+477,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+478,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+479,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+480,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+481,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+482,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+483,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+484,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+485,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+486,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+487,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+488,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+489,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+490,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+491,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+492,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+493,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+494,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+495,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+496,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+497,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+498,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+499,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+500,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+501,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+502,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+503,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+504,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+505,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+506,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+507,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+508,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+509,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+510,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+511,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+512,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+513,Check if chemical already exists,success,a8199e57-8633-477f-a164-c66146d5c3fb,,2025-05-14T16:48:01-07:00
+514,Check if chemical already exists,success,550cda4c-f47a-4634-b9b3-6d221d574e40,,2025-05-14T16:48:01-07:00
+515,Check if chemical already exists,success,550cda4c-f47a-4634-b9b3-6d221d574e40,,2025-05-14T16:48:01-07:00
+516,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+517,Check if chemical already exists,success,437e6464-a284-46c4-9bfa-9e3903061fe5,,2025-05-14T16:48:01-07:00
+518,Check if chemical already exists,success,437e6464-a284-46c4-9bfa-9e3903061fe5,,2025-05-14T16:48:01-07:00
+519,Check if chemical already exists,success,e57e34da-c521-4ec7-82d7-79485618c171,,2025-05-14T16:48:01-07:00
+520,Check if chemical already exists,success,e57e34da-c521-4ec7-82d7-79485618c171,,2025-05-14T16:48:01-07:00
+521,Check if chemical already exists,success,14d6515b-7c59-4f37-8c14-09296762ff51,,2025-05-14T16:48:01-07:00
+522,Check if chemical already exists,success,14d6515b-7c59-4f37-8c14-09296762ff51,,2025-05-14T16:48:01-07:00
+523,Check if chemical already exists,success,707f74c2-6013-4697-9d2f-e3f8e521bb09,,2025-05-14T16:48:01-07:00
+524,Check if chemical already exists,success,18459809-7ba2-4f34-aa90-18f424c90a5f,,2025-05-14T16:48:01-07:00
+525,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+526,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+527,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+528,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+529,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+530,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+531,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+532,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+533,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+534,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+535,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+536,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+537,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+538,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+539,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+540,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+541,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+542,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+543,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+544,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+545,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+546,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+547,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+548,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+549,Check if chemical already exists,success,9734c80f-7ba3-4d01-ba0a-375cfd529287,,2025-05-14T16:48:01-07:00
+550,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+551,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+552,Check if chemical already exists,success,4a467dfb-8171-4cc8-a0dc-2a75288c3cf0,,2025-05-14T16:48:01-07:00
+553,Check if chemical already exists,success,4a467dfb-8171-4cc8-a0dc-2a75288c3cf0,,2025-05-14T16:48:01-07:00
+554,Check if chemical already exists,success,c8a6a39c-b299-4308-a5ac-b1314196275a,,2025-05-14T16:48:01-07:00
+555,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+556,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+557,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+558,Check if chemical already exists,success,1a697c04-5ca2-4a7d-af6c-493c971e5dfd,,2025-05-14T16:48:01-07:00
+559,Check if chemical already exists,success,c70bb21e-20c8-478a-b89f-c4a006aadbeb,,2025-05-14T16:48:01-07:00
+560,Check if chemical already exists,success,22094d2f-40e3-44f4-ae7a-4285b6effec8,,2025-05-14T16:48:01-07:00
+561,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+562,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+563,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+564,Check if chemical already exists,success,e06803ce-0c3f-4058-b42f-d1582f98c814,,2025-05-14T16:48:01-07:00
+565,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+566,Check if chemical already exists,success,d4c4139f-14cb-4bc2-a8e2-58c235efe946,,2025-05-14T16:48:01-07:00
+567,Check if chemical already exists,success,d4c4139f-14cb-4bc2-a8e2-58c235efe946,,2025-05-14T16:48:01-07:00
+568,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+569,Check if chemical already exists,success,9010a404-e866-4a01-87e6-4e82d89581a2,,2025-05-14T16:48:01-07:00
+570,Check if chemical already exists,success,9010a404-e866-4a01-87e6-4e82d89581a2,,2025-05-14T16:48:01-07:00
+571,Check if chemical already exists,success,9010a404-e866-4a01-87e6-4e82d89581a2,,2025-05-14T16:48:01-07:00
+572,Check if chemical already exists,success,98ef81ee-243f-4613-84d6-5481604b751e,,2025-05-14T16:48:01-07:00
+573,Check if chemical already exists,success,98ef81ee-243f-4613-84d6-5481604b751e,,2025-05-14T16:48:01-07:00
+574,Check if chemical already exists,success,98ef81ee-243f-4613-84d6-5481604b751e,,2025-05-14T16:48:01-07:00
+575,Check if chemical already exists,success,e1444b92-9678-4e0a-82ae-48cb2721a419,,2025-05-14T16:48:01-07:00
+576,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+577,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+578,Check if chemical already exists,success,2df9d76d-1c29-4209-acec-709c3f0d8ef4,,2025-05-14T16:48:01-07:00
+579,Check if chemical already exists,success,02b095e4-35e3-455e-9197-3352cc56e835,,2025-05-14T16:48:01-07:00
+580,Check if chemical already exists,success,02b095e4-35e3-455e-9197-3352cc56e835,,2025-05-14T16:48:01-07:00
+581,Check if chemical already exists,success,02b095e4-35e3-455e-9197-3352cc56e835,,2025-05-14T16:48:01-07:00
+582,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name MinOil, heat transfer fluid already exists
+",2025-05-14T16:48:01-07:00
+583,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+584,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+585,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+586,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+587,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+588,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+589,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+590,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+591,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+592,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+593,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+594,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+595,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+596,Check if chemical already exists,success,ee6aadac-8849-4d18-9087-0e0560e8c78f,,2025-05-14T16:48:01-07:00
+597,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+598,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+599,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+600,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+601,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+602,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+603,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+604,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+605,Check if chemical already exists,success,0b607127-87bd-4cee-a828-1330c5928879,,2025-05-14T16:48:01-07:00
+606,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+607,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+608,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name N,N-dimethylaniline already exists
+",2025-05-14T16:48:01-07:00
+609,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+610,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+611,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+612,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+613,Check if chemical already exists,success,ece63939-4444-4653-9dda-dfeb7121a307,,2025-05-14T16:48:01-07:00
+614,Check if chemical already exists,success,c70bb21e-20c8-478a-b89f-c4a006aadbeb,,2025-05-14T16:48:01-07:00
+615,Check if chemical already exists,success,18459809-7ba2-4f34-aa90-18f424c90a5f,,2025-05-14T16:48:01-07:00
+616,Check if chemical already exists,success,b5a2ef98-cf74-407c-b78b-950105053dae,,2025-05-14T16:48:01-07:00
+617,Check if chemical already exists,success,4ad342cc-8de9-4fc5-8e7e-73bae1bc7741,,2025-05-14T16:48:01-07:00
+618,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+619,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+620,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+621,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+622,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+623,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+624,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+625,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+626,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+627,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+628,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+629,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+630,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+631,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+632,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+633,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+634,Check if chemical already exists,success,cef09628-ec8c-4796-b7a7-2106967acd36,,2025-05-14T16:48:01-07:00
+635,Check if chemical already exists,success,d8a3c0d3-ed4f-4e88-aa5d-8b63ccafce17,,2025-05-14T16:48:01-07:00
+636,Check if chemical already exists,success,d8a3c0d3-ed4f-4e88-aa5d-8b63ccafce17,,2025-05-14T16:48:01-07:00
+637,Check if chemical already exists,success,d8a3c0d3-ed4f-4e88-aa5d-8b63ccafce17,,2025-05-14T16:48:01-07:00
+638,Check if chemical already exists,success,d8a3c0d3-ed4f-4e88-aa5d-8b63ccafce17,,2025-05-14T16:48:01-07:00
+639,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+640,Check if chemical already exists,success,7269efb4-0835-4481-87ca-f542cb50e347,,2025-05-14T16:48:01-07:00
+641,Check if chemical already exists,success,7269efb4-0835-4481-87ca-f542cb50e347,,2025-05-14T16:48:01-07:00
+642,Check if chemical already exists,success,7269efb4-0835-4481-87ca-f542cb50e347,,2025-05-14T16:48:01-07:00
+643,Check if chemical already exists,success,7269efb4-0835-4481-87ca-f542cb50e347,,2025-05-14T16:48:01-07:00
+644,Check if chemical already exists,success,99253855-1a45-4ff6-8420-ca65e5ed00f5,,2025-05-14T16:48:01-07:00
+645,Check if chemical already exists,success,99253855-1a45-4ff6-8420-ca65e5ed00f5,,2025-05-14T16:48:01-07:00
+646,Check if chemical already exists,success,99253855-1a45-4ff6-8420-ca65e5ed00f5,,2025-05-14T16:48:01-07:00
+647,Check if chemical already exists,success,52e87f73-b343-4bef-a291-9c6a8a35289c,,2025-05-14T16:48:01-07:00
+648,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+649,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+650,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+651,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+652,Check if chemical already exists,success,852afb22-35c9-4ed6-bfee-8c3d830db647,,2025-05-14T16:48:01-07:00
+653,Check if chemical already exists,success,852afb22-35c9-4ed6-bfee-8c3d830db647,,2025-05-14T16:48:01-07:00
+654,Check if chemical already exists,success,852afb22-35c9-4ed6-bfee-8c3d830db647,,2025-05-14T16:48:01-07:00
+655,Check if chemical already exists,success,852afb22-35c9-4ed6-bfee-8c3d830db647,,2025-05-14T16:48:01-07:00
+656,Check if chemical already exists,success,57df2361-a03d-49c3-9960-061f3ff40bc6,,2025-05-14T16:48:01-07:00
+657,Check if chemical already exists,success,57df2361-a03d-49c3-9960-061f3ff40bc6,,2025-05-14T16:48:01-07:00
+658,Check if chemical already exists,success,57df2361-a03d-49c3-9960-061f3ff40bc6,,2025-05-14T16:48:01-07:00
+659,Check if chemical already exists,success,f72aba5c-2d5f-4a4e-9cfe-5e81cceec06f,,2025-05-14T16:48:01-07:00
+660,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+661,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+662,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+663,Check if chemical already exists,success,f76e2142-604d-40d9-b5c7-7e1abdf9f031,,2025-05-14T16:48:01-07:00
+664,Check if chemical already exists,success,76d47bd2-68fa-45d3-903d-c851f3a89bfc,,2025-05-14T16:48:01-07:00
+665,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+666,Check if chemical already exists,success,136b5f0a-4217-48cc-8de5-7ff99ac75ea1,,2025-05-14T16:48:01-07:00
+667,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+668,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+669,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+670,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+671,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+672,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+673,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+674,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+675,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+676,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+677,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+678,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+679,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+680,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+681,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+682,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+683,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+684,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+685,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+686,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+687,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+688,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+689,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+690,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+691,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+692,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+693,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+694,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+695,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+696,Check if chemical already exists,success,697a0c7d-6e42-4a52-9c19-729a129be8bb,,2025-05-14T16:48:01-07:00
+697,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+698,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+699,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+700,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+701,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+702,Check if chemical already exists,success,4e92e7ba-cc1e-4d46-add8-33d5bc30b636,,2025-05-14T16:48:01-07:00
+703,Check if chemical already exists,success,4e92e7ba-cc1e-4d46-add8-33d5bc30b636,,2025-05-14T16:48:01-07:00
+704,Check if chemical already exists,success,84f6e11c-20fe-43d7-a809-e1e4a986d352,,2025-05-14T16:48:01-07:00
+705,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+706,Check if chemical already exists,success,e300514f-7a98-4b90-a287-cb7af692cfd1,,2025-05-14T16:48:01-07:00
+707,Check if chemical already exists,success,20d254a1-3951-444c-a8b5-18cc8d22a980,,2025-05-14T16:48:01-07:00
+708,Check if chemical already exists,success,380c65f2-7116-490e-8ab9-df2093d95eaa,,2025-05-14T16:48:01-07:00
+709,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+710,Check if chemical already exists,success,5ad3da6d-55d3-414c-86af-c736986954ab,,2025-05-14T16:48:01-07:00
+711,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:01-07:00
+712,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:01-07:00
+713,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+714,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name TPU film, conductive, NVTRN EL 8010 already exists
+",2025-05-14T16:48:01-07:00
+715,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name TPU film, conductive, NVTRN EL 8014m already exists
+",2025-05-14T16:48:01-07:00
+716,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+717,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+718,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+719,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+720,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+721,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+722,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+723,Check if chemical already exists,success,6b85836f-3a01-4bd2-8a2b-b205b50d5565,,2025-05-14T16:48:01-07:00
+724,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+725,Check if chemical already exists,success,b43a2687-7781-44e9-8afd-c31a2e92e74a,,2025-05-14T16:48:01-07:00
+726,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+727,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+728,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+729,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+730,Check if chemical already exists,success,6b85836f-3a01-4bd2-8a2b-b205b50d5565,,2025-05-14T16:48:01-07:00
+731,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+732,Check if chemical already exists,success,5430511b-cb70-43b5-a216-bac506b5565c,,2025-05-14T16:48:01-07:00
+733,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+734,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+735,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+736,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+737,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+738,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+739,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+740,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+741,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+742,Check if chemical already exists,success,29739f77-0f7c-4ba7-ab52-3e45affff3cb,,2025-05-14T16:48:01-07:00
+743,Check if chemical already exists,success,a3075a89-c921-4de5-9c94-0b411d810ddd,,2025-05-14T16:48:01-07:00
+744,Check if chemical already exists,success,84655c4f-ba6a-47f2-8802-ce53bb723079,,2025-05-14T16:48:01-07:00
+745,Create new chemical,cannot create new chemical,,"failed to create new chemical, status code: 500, response: chemical with name poly(3,4-ethylenedioxythiophene) poly(styrenesulfonate) already exists
+",2025-05-14T16:48:01-07:00
+746,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+747,Check if chemical already exists,success,8cb118d0-dc88-4f62-943b-f300d4837d4c,,2025-05-14T16:48:01-07:00
+748,Check if chemical already exists,success,07769329-62e7-49e5-a4db-f6f1ddf22591,,2025-05-14T16:48:01-07:00
+749,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:01-07:00
+750,Check if chemical already exists,success,fe0edd44-8c0d-4b15-b031-c53f25b73957,,2025-05-14T16:48:01-07:00
+751,Check if chemical already exists,success,46cd029a-fc62-4c8d-8d4c-de660f206e7c,,2025-05-14T16:48:01-07:00
+752,Check if chemical already exists,success,46cd029a-fc62-4c8d-8d4c-de660f206e7c,,2025-05-14T16:48:01-07:00
+753,Check if chemical already exists,success,46cd029a-fc62-4c8d-8d4c-de660f206e7c,,2025-05-14T16:48:01-07:00
+754,Check if chemical already exists,success,46cd029a-fc62-4c8d-8d4c-de660f206e7c,,2025-05-14T16:48:01-07:00
+755,Check if chemical already exists,success,46cd029a-fc62-4c8d-8d4c-de660f206e7c,,2025-05-14T16:48:01-07:00
+756,Check if chemical already exists,success,3236c42e-c4a1-4f3f-8136-ee713240884f,,2025-05-14T16:48:01-07:00
+757,Check if chemical already exists,success,d76c01ff-5f16-4314-b25e-b6f943806609,,2025-05-14T16:48:01-07:00
+758,Check if chemical already exists,success,d76c01ff-5f16-4314-b25e-b6f943806609,,2025-05-14T16:48:01-07:00
+759,Check if chemical already exists,success,ba79e78f-2dec-42fa-8162-0b90cef715a2,,2025-05-14T16:48:01-07:00
+760,Check if chemical already exists,success,fb2ab38c-92df-44dc-8bd8-a6fc169e5700,,2025-05-14T16:48:01-07:00
+761,Check if chemical already exists,success,5a0b5d34-0e24-4e90-978e-f78490812cdc,,2025-05-14T16:48:01-07:00
+762,Check if chemical already exists,success,329b1b47-7722-4f11-876d-def8c3ae3065,,2025-05-14T16:48:02-07:00
+763,Check if chemical already exists,success,7e63553d-3baa-48ac-9961-b0ac0497c98e,,2025-05-14T16:48:02-07:00
+764,Check if chemical already exists,success,9977d269-1085-4118-96dc-031737c8dc31,,2025-05-14T16:48:02-07:00
+765,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+766,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+767,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+768,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+769,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+770,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+771,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+772,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+773,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+774,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+775,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+776,Check if chemical already exists,success,f997b34a-90b4-4a4f-805f-57ea16cc63c9,,2025-05-14T16:48:02-07:00
+777,Check if chemical already exists,success,f997b34a-90b4-4a4f-805f-57ea16cc63c9,,2025-05-14T16:48:02-07:00
+778,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+779,Check if chemical already exists,success,e298648c-7d18-4447-b7d9-f8287fd7225a,,2025-05-14T16:48:02-07:00
+780,Check if chemical already exists,success,e298648c-7d18-4447-b7d9-f8287fd7225a,,2025-05-14T16:48:02-07:00
+781,Check if chemical already exists,success,a6c259bb-124f-41d6-b630-2ab4ff3364df,,2025-05-14T16:48:02-07:00
+782,Check if chemical already exists,success,7ecbd723-3a3d-4187-a9e6-558645a4c571,,2025-05-14T16:48:02-07:00
+783,Check if chemical already exists,success,0c9e6e50-a9d0-4f54-8a73-e999e03d2260,,2025-05-14T16:48:02-07:00
+784,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+785,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+786,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+787,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+788,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+789,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+790,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+791,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+792,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+793,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+794,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+795,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+796,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+797,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+798,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+799,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+800,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+801,Check if chemical already exists,success,d85f69ff-5416-40c5-bd02-0c8bfffff0ea,,2025-05-14T16:48:02-07:00
+802,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+803,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+804,Check if chemical already exists,success,eafd7f23-ef0b-49e1-a1af-dd78deb0d1c4,,2025-05-14T16:48:02-07:00
+805,Check if chemical already exists,success,7ddac9c3-62d3-479c-b982-483570f12344,,2025-05-14T16:48:02-07:00
+806,Check if chemical already exists,success,7ddac9c3-62d3-479c-b982-483570f12344,,2025-05-14T16:48:02-07:00
+807,Check if chemical already exists,success,d088c620-2efb-4c72-a39c-ed4233f70a34,,2025-05-14T16:48:02-07:00
+808,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+809,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+810,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+811,Check if chemical already exists,success,4a0a6bd4-145f-4a00-878f-46f6b8d7cc84,,2025-05-14T16:48:02-07:00
+812,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+813,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+814,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+815,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+816,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+817,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+818,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+819,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+820,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+821,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+822,Check if chemical already exists,success,81980acd-e958-495f-a127-08862a035244,,2025-05-14T16:48:02-07:00
+823,Check if chemical already exists,success,1cde1c35-d6ab-4ea4-a56c-3a20f945f689,,2025-05-14T16:48:02-07:00
+824,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+825,Check if chemical already exists,success,d753ceb5-de94-4867-8c15-bf3b6a84a263,,2025-05-14T16:48:02-07:00
+826,Check if chemical already exists,success,d753ceb5-de94-4867-8c15-bf3b6a84a263,,2025-05-14T16:48:02-07:00
+827,Check if chemical already exists,success,d753ceb5-de94-4867-8c15-bf3b6a84a263,,2025-05-14T16:48:02-07:00
+828,Check if chemical already exists,success,d753ceb5-de94-4867-8c15-bf3b6a84a263,,2025-05-14T16:48:02-07:00
+829,Check if chemical already exists,success,d753ceb5-de94-4867-8c15-bf3b6a84a263,,2025-05-14T16:48:02-07:00
+830,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+831,Check if chemical already exists,success,35f739d5-0da3-4197-bb5d-ce4056c0af5c,,2025-05-14T16:48:02-07:00
+832,Check if chemical already exists,success,5874e498-a423-4521-a6c6-b4630ce6f542,,2025-05-14T16:48:02-07:00
+833,Check if chemical already exists,success,5874e498-a423-4521-a6c6-b4630ce6f542,,2025-05-14T16:48:02-07:00
+834,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+835,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+836,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+837,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+838,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+839,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+840,Check if chemical already exists,success,0524f2a2-d49e-4797-a4a8-6a47131e73df,,2025-05-14T16:48:02-07:00
+841,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+842,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+843,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+844,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+845,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+846,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+847,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+848,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+849,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+850,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+851,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+852,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+853,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+854,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+855,Check if chemical already exists,success,9d4027e8-91dc-43ca-bfe3-c7313d2c49aa,,2025-05-14T16:48:02-07:00
+856,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+857,Check if chemical already exists,success,392f9d6e-0c43-4a98-8695-d2d6055b9ad1,,2025-05-14T16:48:02-07:00
+858,Check if chemical already exists,success,35f739d5-0da3-4197-bb5d-ce4056c0af5c,,2025-05-14T16:48:02-07:00
+859,Check if chemical already exists,success,a97f94f8-d968-4323-bac4-3cbc49141192,,2025-05-14T16:48:02-07:00
+860,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+861,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+862,Check if chemical already exists,success,53839b50-630c-4562-91a9-9069dbb90a42,,2025-05-14T16:48:02-07:00
+863,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+864,Check if chemical already exists,success,ab846b26-092a-47a2-ad93-549ce39a59d2,,2025-05-14T16:48:02-07:00
+865,Check if chemical already exists,success,bedae38f-543d-4988-b316-9c0750d0fa2d,,2025-05-14T16:48:02-07:00
+866,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+867,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+868,Check if chemical already exists,success,3f44683f-5fbd-4029-876b-54c50ce91c91,,2025-05-14T16:48:02-07:00
+869,Check if chemical already exists,success,a54ffbee-bd77-4d64-8c9b-595d4b77ce05,,2025-05-14T16:48:02-07:00
+870,Check if chemical already exists,success,b1214d91-c1b5-44de-91e5-6f8fad1eed49,,2025-05-14T16:48:02-07:00
+871,Check if chemical already exists,success,b1214d91-c1b5-44de-91e5-6f8fad1eed49,,2025-05-14T16:48:02-07:00
+872,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+873,Check if chemical already exists,success,f5994d8f-93f5-46ec-8871-3cf7d30ccd89,,2025-05-14T16:48:02-07:00
+874,Check if chemical already exists,success,2b9c9450-44ad-44b4-a2d2-6366e0a783b1,,2025-05-14T16:48:02-07:00
+875,Check if chemical already exists,success,2b9c9450-44ad-44b4-a2d2-6366e0a783b1,,2025-05-14T16:48:02-07:00
+876,Check if chemical already exists,success,2b9c9450-44ad-44b4-a2d2-6366e0a783b1,,2025-05-14T16:48:02-07:00
+877,Check if chemical already exists,success,2b9c9450-44ad-44b4-a2d2-6366e0a783b1,,2025-05-14T16:48:02-07:00
+878,Check if chemical already exists,success,2b9c9450-44ad-44b4-a2d2-6366e0a783b1,,2025-05-14T16:48:02-07:00
+879,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+880,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+881,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+882,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+883,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+884,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+885,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+886,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+887,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+888,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+889,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+890,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+891,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+892,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+893,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+894,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+895,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+896,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+897,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+898,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+899,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+900,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+901,Check if chemical already exists,success,26d9f17c-6002-4823-ac3a-8e0ac52280dd,,2025-05-14T16:48:02-07:00
+902,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+903,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+904,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+905,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+906,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+907,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+908,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+909,Check if chemical already exists,success,d1e30829-69ff-48e7-8b15-4aa2b867bc9e,,2025-05-14T16:48:02-07:00
+910,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+911,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+912,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+913,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+914,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+915,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+916,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+917,Check if chemical already exists,success,a4e928cb-c62b-41e7-9d7f-ea549ecb17c5,,2025-05-14T16:48:02-07:00
+918,Check if chemical already exists,success,66a85f46-31a8-46eb-8a61-c87e6f2c224f,,2025-05-14T16:48:02-07:00
+919,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+920,Check if chemical already exists,success,42f6a897-d8c9-4dc7-ab60-2735b33cb149,,2025-05-14T16:48:02-07:00
+921,Check if chemical already exists,success,4a06d3fe-8004-4870-b1df-ba2b523576a6,,2025-05-14T16:48:02-07:00
+922,Check if chemical already exists,success,f77f5730-067c-4fed-87fb-39904aa9be0d,,2025-05-14T16:48:02-07:00
+923,Check if chemical already exists,success,7bdc96a7-c817-471b-8089-c1c21d073a97,,2025-05-14T16:48:02-07:00
+924,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+925,Check if chemical already exists,success,03603a54-d93d-4884-96ef-46b2dc470e13,,2025-05-14T16:48:02-07:00
+926,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+927,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+928,Check if chemical already exists,success,e2bc8a53-9a0b-4ba2-8860-88db0c049400,,2025-05-14T16:48:02-07:00
+929,Check if chemical already exists,success,e2bc8a53-9a0b-4ba2-8860-88db0c049400,,2025-05-14T16:48:02-07:00
+930,Check if chemical already exists,success,e2bc8a53-9a0b-4ba2-8860-88db0c049400,,2025-05-14T16:48:02-07:00
+931,Check if chemical already exists,success,717d1759-5729-4c3f-bfda-e27ec5c14e39,,2025-05-14T16:48:02-07:00
+932,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+933,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+934,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+935,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+936,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+937,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+938,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+939,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+940,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+941,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+942,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+943,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+944,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+945,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+946,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+947,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+948,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+949,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+950,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+951,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+952,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+953,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+954,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+955,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+956,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+957,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+958,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+959,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+960,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+961,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+962,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+963,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+964,Check if chemical already exists,success,c80f0bfc-64ea-4127-a7d2-2d24bc7dbc5f,,2025-05-14T16:48:02-07:00
+965,Check if chemical already exists,success,c80f0bfc-64ea-4127-a7d2-2d24bc7dbc5f,,2025-05-14T16:48:02-07:00
+966,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+967,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+968,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+969,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+970,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+971,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+972,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+973,Check if chemical already exists,success,4bc37629-515a-432b-acf9-df7ca431217c,,2025-05-14T16:48:02-07:00
+974,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+975,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+976,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+977,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+978,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+979,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+980,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+981,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+982,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+983,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+984,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+985,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+986,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+987,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+988,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+989,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+990,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+991,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+992,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+993,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+994,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+995,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+996,Check if chemical already exists,success,10892c58-7672-4ae8-81bf-0a3ca461edc1,,2025-05-14T16:48:02-07:00
+997,Check if chemical already exists,success,b663be9c-bbe3-48ef-af6c-882204357955,,2025-05-14T16:48:02-07:00
+998,Check if chemical already exists,success,a53e9f53-851b-4351-a0e7-65f82887a535,,2025-05-14T16:48:02-07:00
+999,Check if chemical already exists,success,22b23f73-d643-48fe-858d-376907b4091c,,2025-05-14T16:48:02-07:00
+1000,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1001,Check if chemical already exists,success,e9944d40-d708-4469-ba49-d79cfc25e05b,,2025-05-14T16:48:02-07:00
+1002,Check if chemical already exists,success,22b23f73-d643-48fe-858d-376907b4091c,,2025-05-14T16:48:02-07:00
+1003,Check if chemical already exists,success,22b23f73-d643-48fe-858d-376907b4091c,,2025-05-14T16:48:02-07:00
+1004,Check if chemical already exists,success,22b23f73-d643-48fe-858d-376907b4091c,,2025-05-14T16:48:02-07:00
+1005,Check if chemical already exists,success,744cc6e5-7699-474e-ab45-1f3c64019a12,,2025-05-14T16:48:02-07:00
+1006,Check if chemical already exists,success,744cc6e5-7699-474e-ab45-1f3c64019a12,,2025-05-14T16:48:02-07:00
+1007,Check if chemical already exists,success,176e8e34-9792-44d5-8a08-ca8429cd407a,,2025-05-14T16:48:02-07:00
+1008,Check if chemical already exists,success,21708afb-c1b1-492e-b4df-2d2381c7b235,,2025-05-14T16:48:02-07:00
+1009,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1010,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1011,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1012,Check if chemical already exists,success,3e52fa61-0dac-4f6b-9cdb-4982594fb091,,2025-05-14T16:48:02-07:00
+1013,Check if chemical already exists,success,f3a69a19-a5f0-44e7-bd70-218a81241176,,2025-05-14T16:48:02-07:00
+1014,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1015,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1016,Check if chemical already exists,success,b6e4f210-310a-4aae-a78c-dcfb120e4890,,2025-05-14T16:48:02-07:00
+1017,Check if chemical already exists,success,e593d7bb-b0c1-47c2-83c8-3c2d6f699046,,2025-05-14T16:48:02-07:00
+1018,Check if chemical already exists,success,e593d7bb-b0c1-47c2-83c8-3c2d6f699046,,2025-05-14T16:48:02-07:00
+1019,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1020,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1021,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1022,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1023,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1024,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1025,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1026,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1027,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1028,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1029,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1030,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1031,Check if chemical already exists,success,acb2a94c-6998-4587-91d6-7bb2d2f98bf1,,2025-05-14T16:48:02-07:00
+1032,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1033,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1034,Check if chemical already exists,success,2ba62f6e-0935-4502-bd6a-ce5cebcd5636,,2025-05-14T16:48:02-07:00
+1035,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1036,Check if chemical already exists,success,1970f811-155c-4b21-a214-9368e152e1ae,,2025-05-14T16:48:02-07:00
+1037,Check if chemical already exists,success,df70d2e0-3f8e-496a-b48c-e9e13fad3f2f,,2025-05-14T16:48:02-07:00
+1038,Check if chemical already exists,success,df70d2e0-3f8e-496a-b48c-e9e13fad3f2f,,2025-05-14T16:48:02-07:00
+1039,Check if chemical already exists,success,df70d2e0-3f8e-496a-b48c-e9e13fad3f2f,,2025-05-14T16:48:02-07:00
+1040,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1041,Check if chemical already exists,success,19cec695-55e2-459e-ba1d-0a46515b96b7,,2025-05-14T16:48:02-07:00
+1042,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1043,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1044,Check if chemical already exists,success,d4256535-b40f-4b0b-8f2b-4c235238d06c,,2025-05-14T16:48:02-07:00
+1045,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1046,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1047,Check if chemical already exists,success,5b662fdc-5c48-4d11-81cf-8d4a886bd43d,,2025-05-14T16:48:02-07:00
+1048,Check if chemical already exists,success,5b662fdc-5c48-4d11-81cf-8d4a886bd43d,,2025-05-14T16:48:02-07:00
+1049,Check if chemical already exists,success,b72ab3c5-0656-41cc-9f97-c4bbd017345c,,2025-05-14T16:48:02-07:00
+1050,Check if chemical already exists,success,663c8053-72b5-4480-9890-9779d3e3673d,,2025-05-14T16:48:02-07:00
+1051,Check if chemical already exists,success,319d0bb8-7fb0-44e5-bf4e-ee321e83e17d,,2025-05-14T16:48:02-07:00
+1052,Check if chemical already exists,success,2953fb36-1f6f-416b-8e08-233589203dd8,,2025-05-14T16:48:02-07:00
+1053,Check if chemical already exists,success,c1deff38-1da9-4129-b0b8-7e96b686a0f0,,2025-05-14T16:48:02-07:00
+1054,Check if chemical already exists,success,c1deff38-1da9-4129-b0b8-7e96b686a0f0,,2025-05-14T16:48:02-07:00
+1055,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1056,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1057,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1058,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1059,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1060,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1061,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1062,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1063,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1064,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1065,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1066,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1067,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1068,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1069,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1070,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1071,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1072,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1073,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1074,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1075,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1076,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1077,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1078,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1079,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1080,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1081,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1082,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1083,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1084,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1085,Check if chemical already exists,success,934ed381-fca3-4b6e-bd9b-3fb6a1b218aa,,2025-05-14T16:48:02-07:00
+1086,Check if chemical already exists,success,e5b7dbfc-47bd-4120-9600-5019cdac5f17,,2025-05-14T16:48:02-07:00
+1087,Check if chemical already exists,success,0d4c4374-85ea-4417-a101-f05df1130cf4,,2025-05-14T16:48:02-07:00
+1088,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1089,Check if chemical already exists,success,e5e216b4-8873-4156-8af1-ffa015d0187b,,2025-05-14T16:48:02-07:00
+1090,Check if chemical already exists,success,a53f210e-0f10-4083-a9f2-8e4ad76f413e,,2025-05-14T16:48:02-07:00
+1091,Check if chemical already exists,success,a0d9179d-7557-4b39-9c0c-b2760eb48acc,,2025-05-14T16:48:02-07:00
+1092,Check if chemical already exists,success,87def95a-f7a0-414b-b995-ad6efe3a1ab5,,2025-05-14T16:48:02-07:00
+1093,Check if chemical already exists,success,7fc7b62e-adcf-4a87-843d-3baaf52102fe,,2025-05-14T16:48:02-07:00
+1094,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1095,Check if chemical already exists,success,00725e5e-834c-4009-b774-31e0f4d912c6,,2025-05-14T16:48:02-07:00
+1096,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:02-07:00
+1097,Check if chemical already exists,success,42f18148-6fa7-4ff6-9844-f36d1656bce8,,2025-05-14T16:48:02-07:00
+1098,Check if chemical already exists,success,42f18148-6fa7-4ff6-9844-f36d1656bce8,,2025-05-14T16:48:03-07:00
+1099,Check if chemical already exists,success,040846fb-dfdd-499a-83b3-73ce487d0aaf,,2025-05-14T16:48:03-07:00
+1100,Check if chemical already exists,success,69114cca-5906-47a5-b567-323f0ed0925a,,2025-05-14T16:48:03-07:00
+1101,Check if chemical already exists,success,5a620f55-80bc-4f0e-85de-35df8c9b2c96,,2025-05-14T16:48:03-07:00
+1102,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:03-07:00
+1103,Validate row,missing required fields,,missing chemical name,2025-05-14T16:48:03-07:00
+1104,Check if chemical already exists,success,61013730-4503-478c-a440-65f31381fe88,,2025-05-14T16:48:03-07:00
+1105,Check if chemical already exists,success,640eeb87-e0d3-4bc5-9508-66468e7869b6,,2025-05-14T16:48:03-07:00
+1106,Check if chemical already exists,success,1af459d1-fab8-420f-bd9d-aec8c2ea60b7,,2025-05-14T16:48:03-07:00
+1107,Check if chemical already exists,success,61013730-4503-478c-a440-65f31381fe88,,2025-05-14T16:48:03-07:00
+1108,Check if chemical already exists,success,a3c3566b-a4ad-420b-a640-dcce7aabf50e,,2025-05-14T16:48:03-07:00
+1109,Check if chemical already exists,success,f91063ee-cf60-4fe6-950e-631695e25940,,2025-05-14T16:48:03-07:00
+1110,Check if chemical already exists,success,1af459d1-fab8-420f-bd9d-aec8c2ea60b7,,2025-05-14T16:48:03-07:00
+1111,Validate row,missing required fields,,missing chemical name,2025-05-14T16:48:03-07:00
+1112,Validate row,missing required fields,,missing recipe title,2025-05-14T16:48:03-07:00
