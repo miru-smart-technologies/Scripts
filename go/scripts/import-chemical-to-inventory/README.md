@@ -11,6 +11,8 @@ This script processes chemical data from a CSV file, creating database entries f
 - Read from a downloaded CSV file (Google Sheet export)
 - Rename the file to "chemicals-YYYY-MM-DD-HH-MM.csv" for versioning
 
+**For each row:**
+
 **Step 1: Chemical Processing**
 
 - Process each chemical record in the CSV
@@ -28,32 +30,57 @@ This script processes chemical data from a CSV file, creating database entries f
 - Create recipes for each chemical
 - Check if a recipe already exists for the given chemical
 - If a recipe exists:
-  - Compare it with the existing database entry
-  - Flag any differences but do not update the database
+  - do nothing.
 - If no recipe exists:
-  - Create a new recipe using: - Title - Description (any notes that might be useful from the spreadsheet) - UUID of the chemical
-    Note: All chemicals in this sheet are believed to be supplier chemicals, so the Components field will be empty
+  - create a new recipe using: - Title - Description (any notes that might be useful from the spreadsheet) - UUID of the chemical
+- Note: All chemicals in this sheet are believed to be supplier chemicals, so the Components field will be empty
 
-**Step 3: Instance Creation**
+** Step 3: Instance Creation(TBD)**
 
-- Create a chemical instance for each chemical
-- Create a recipe instance for each chemical instance
-- This step will be implemented after the first two steps are completed (details TBD)
+- Create a chemical instance for each chemical based on chemical and recipe
 
 **Result Tracking**
 
 - The script will generate a processed log CSV with the following information:
-  - type of record (chemical, recipe, safetyNote)
-  - UUID of each created chemical and recipe
-  - Processing status (success/failure)
-  - Detailed error messages for failed operations
-  - Differences between existing and new recipes/chemicals (maybe)
-  - Timestamp ("Processed At") for each record
+
+```
+type ProcessingResult struct {
+	FileRowNum  int
+	Step        string // check chemical, create chemical, or etc.
+	Status      string // success or error
+	DatabaseID  string // ID, if successfully pushed to the database
+	ErrorMsg    string
+	ProcessedAt time.Time
+}
+```
 
 **Processing Flow**
 
-- The script will process the entire CSV file three times (once for each step)
+- The script will process the entire CSV file only one time
 - Line by line: Each step will be completed for all rows before moving to the next step
+- A summary of the processing will be printed at the end of the script. Example:
+
+```
+=== Processing Summary ===
+Log file created:              log-2025-05-15-15-25.csv
+Total rows processed:          1113
+Chemicals created:             502
+Chemical recipes created:      0
+Empty recipe rows:             331
+
+=== Error Summary ===
+Total errors:                        781
+Breakdown:
+        - Missing chemical name errors:    2
+        - Check chemical errors:           0
+        - Create chemical errors:          0
+        - Missing chemical ID errors:      0
+        - Check recipe errors:             779
+        - Create recipe errors:            0
+
+=== Consistency Check ===
+Is total error count correct?  true
+```
 
 ### Run the script
 
