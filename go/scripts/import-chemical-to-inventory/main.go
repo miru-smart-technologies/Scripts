@@ -50,6 +50,31 @@ type PortalChemicalRecipe struct { // <<<<<<<
 	// ProcessSet   *PortalProcessSet `json:"processSet"`
 	Components []PortalComponent `json:"components"` // emtpy if it's a supplied chemical - list of inputs
 }
+type PortalChemicalInstance struct {
+	UUID             uuid.UUID                 `json:"uuid"`
+	ID               int64                     `json:"id"`
+	RecipeUUID       uuid.UUID                 `json:"recipeUUID"`
+	Amount           float64                   `json:"amount"`
+	Owner            uuid.UUID                 `json:"owner"`
+	Components       []PortalComponentInstance `json:"inputComponentInstances"`
+	HomeLocationUUID uuid.UUID                 `json:"locationUUID"`
+	SupplierUUID     uuid.UUID                 `json:"supplierUUID"`
+	ParentUUID       uuid.UUID                 `json:"parentUUID"`
+
+	ManufactureDate string  `json:"manufactureDate"`
+	ExpirationDate  string  `json:"expirationDate"`
+	LotNumber       string  `json:"lotNumber"`
+	Label           string  `json:"label"`
+	GrossWeight     float64 `json:"grossWeight"`
+	NetWeight       float64 `json:"netWeight"`
+	Notes           string  `json:"notes"`
+}
+
+type PortalComponentInstance struct {
+	ChemicalInstanceUUID uuid.UUID `json:"chemicalInstanceUUID"`
+	Amount               float64   `json:"amount"`
+	Unit                 string    `json:"unit"`
+}
 
 // --- payload models ---
 
@@ -73,9 +98,28 @@ type PayloadComponent struct { // <<<<<<<
 }
 
 type PayloadChemicalRecipe struct { // <<<<<<<
-	Title        string            `json:"title"`        // 99.9%
+	Title        string            `json:"name"`         // 99.9%
 	ChemicalUUID uuid.UUID         `json:"chemicalUUID"` // UUID of butuanol
 	Components   []PortalComponent `json:"components"`   // emtpy if it's a supplied chemical - list of inputs
+}
+
+type PayloadChemicalInstance struct {
+	ID               int64                     `json:"id"`
+	RecipeUUID       uuid.UUID                 `json:"recipeUUID"`
+	Amount           float64                   `json:"amount"`
+	Owner            uuid.UUID                 `json:"owner"`
+	Components       []PortalComponentInstance `json:"inputComponentInstances"`
+	HomeLocationUUID uuid.UUID                 `json:"locationUUID"`
+	SupplierUUID     uuid.UUID                 `json:"supplierUUID"`
+	ParentUUID       uuid.UUID                 `json:"parentUUID"`
+
+	ManufactureDate string  `json:"manufactureDate"`
+	ExpirationDate  string  `json:"expirationDate"`
+	LotNumber       string  `json:"lotNumber"`
+	Label           string  `json:"label"`
+	GrossWeight     float64 `json:"grossWeight"`
+	NetWeight       float64 `json:"netWeight"`
+	Notes           string  `json:"notes"`
 }
 
 type ProcessingResult struct {
@@ -168,7 +212,7 @@ func main() {
 		}
 
 		pChemical := PayloadChemical{
-			Name: removeTrailingSpace(row[4]),
+			Name: removeExtraSpace(row[4]),
 			SafetyInfo: PortalSafetyInfo{
 				CasNumber:   row[6],
 				UNNumber:    row[15],
@@ -224,10 +268,17 @@ func main() {
 				continue
 			}
 
+			recipeTitle := removeExtraSpace(row[5])
+			chemicalUUID := uuid.MustParse(chemicalID)
+
 			pRecipe := PayloadChemicalRecipe{
-				Title:        removeTrailingSpace(row[5]),
-				ChemicalUUID: uuid.MustParse(chemicalID),
+				Title:        recipeTitle,
+				ChemicalUUID: chemicalUUID,
 			}
+
+			fmt.Printf("double check payload info as right now the check won't work any ways - title: %s\n", pRecipe.Title)
+			fmt.Printf("double check  chemicalID: %s\n", pRecipe.ChemicalUUID)
+			fmt.Printf("ChemicalUUID type: %T\n", pRecipe.ChemicalUUID)
 
 			res, recipeID, err := checkIfChemicalRecipeExistsInDB(pRecipe.Title, chemicalID)
 			if err != nil {
@@ -240,6 +291,9 @@ func main() {
 			}
 
 			if res {
+				fmt.Printf("Chemical recipe %s already exists in DB - skipping\n", pRecipe.Title)
+				writeProcessedLog(writer, rowNum, "Check if chemical recipe already exists", "success", recipeID, "")
+			} else {
 				recipeID, err := createNewChemicalRecipe(pRecipe)
 				if err != nil {
 					fmt.Printf("Error creating new chemical recipe: %v - skipping\n", err)
@@ -249,13 +303,9 @@ func main() {
 					rowNum++
 					continue
 				}
-
 				fmt.Printf("Created new chemical recipe %s with ID %s\n", pRecipe.Title, recipeID)
 				writeProcessedLog(writer, rowNum, "Create new chemical recipe", "success", recipeID, "")
 				createdRecipeCount++
-			} else {
-				fmt.Printf("Chemical recipe %s already exists in DB - skipping\n", pRecipe.Title)
-				writeProcessedLog(writer, rowNum, "Check if chemical recipe already exists", "success", recipeID, "")
 			}
 		}
 		// TODO -3. create instance
@@ -296,8 +346,10 @@ func main() {
 
 // --- helper functions ---
 
-func removeTrailingSpace(s string) string {
-	return strings.TrimRight(s, " ")
+func removeExtraSpace(s string) string {
+	s = strings.TrimRight(s, " ")
+	s = strings.TrimLeft(s, " ")
+	return s
 }
 
 var client = resty.New().SetBaseURL("http://192.168.2.2:8092")
@@ -335,7 +387,7 @@ func checkIfChemicalRecipeExistsInDB(name string, chemicalID string) (bool, stri
 
 	resp, err := client.R().
 		SetResult(&result).
-		Get("/chemicals/" + chemicalID + "/recipes/")
+		Get("/chemicals/" + chemicalID + "/recipes")
 
 	if err != nil {
 		return false, "", fmt.Errorf("failed to check if chemical recipe exists: %w", err)
