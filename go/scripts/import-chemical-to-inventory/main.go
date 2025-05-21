@@ -13,126 +13,18 @@ import (
 	"resty.dev/v3"
 )
 
-// --- database models ---
-
-type PortalChemical struct { // <<<<<<<
-	ID              string           `json:"id"`
-	Name            string           `json:"name"`          // 1-butanol
-	Formula         string           `json:"formula"`       // nice to have
-	StateOfMatter   string           `json:"stateOfMatter"` // solid, liquid, gas (how to know that???) maybe
-	IsProduct       bool             `json:"isProduct"`
-	Type            string           `json:"type"` //IGNORE whatever is not on alchemy portal
-	Description     string           `json:"description"`
-	MolecularWeight int64            `json:"molecularWeight"`
-	Density         float64          `json:"density"`
-	SafetyInfo      PortalSafetyInfo `json:"safetyInfo"` // JSON object
-}
-
-type PortalSafetyInfo struct { // <<<<<<<
-	CasNumber   string `json:"casNumber"`   // 71-36-3
-	UNNumber    string `json:"unNumber"`    // UN1120
-	HazardClass string `json:"hazardClass"` // 3
-	SafetyNotes string `json:"safetyNotes"` // put other safety info here: "GHS Flammable liquid cateogry: 3;"
-}
-
-type PortalComponent struct { // <<<<<<<
-	RecipeUUID  uuid.UUID `json:"recipeUUID"`
-	RecipeTitle string    `json:"recipeTitle"`
-	Fraction    float64   `json:"fraction"`
-}
-
-type PortalChemicalRecipe struct { // <<<<<<<
-	ID           string    `json:"id"`
-	Title        string    `json:"title"`        // 99.9%
-	ChemicalUUID uuid.UUID `json:"chemicalUUID"` // UUID of butuanol
-	Description  string    `json:"description"`  // ignore
-	Tags         []string  `json:"tags"`         // ignore
-	// ProcessSet   *PortalProcessSet `json:"processSet"`
-	Components []PortalComponent `json:"components"` // emtpy if it's a supplied chemical - list of inputs
-}
-type PortalChemicalInstance struct {
-	UUID             uuid.UUID                 `json:"uuid"`
-	ID               int64                     `json:"id"`
-	RecipeUUID       uuid.UUID                 `json:"recipeUUID"`
-	Amount           float64                   `json:"amount"`
-	Owner            uuid.UUID                 `json:"owner"`
-	Components       []PortalComponentInstance `json:"inputComponentInstances"`
-	HomeLocationUUID uuid.UUID                 `json:"locationUUID"`
-	SupplierUUID     uuid.UUID                 `json:"supplierUUID"`
-	ParentUUID       uuid.UUID                 `json:"parentUUID"`
-
-	ManufactureDate string  `json:"manufactureDate"`
-	ExpirationDate  string  `json:"expirationDate"`
-	LotNumber       string  `json:"lotNumber"`
-	Label           string  `json:"label"`
-	GrossWeight     float64 `json:"grossWeight"`
-	NetWeight       float64 `json:"netWeight"`
-	Notes           string  `json:"notes"`
-}
-
-type PortalComponentInstance struct {
-	ChemicalInstanceUUID uuid.UUID `json:"chemicalInstanceUUID"`
-	Amount               float64   `json:"amount"`
-	Unit                 string    `json:"unit"`
-}
-
-// --- payload models ---
-
-type PayloadSafetyInfo struct { // <<<<<<<
-	CasNumber   string `json:"casNumber"`   // 71-36-3
-	UNNumber    string `json:"unNumber"`    // UN1120
-	HazardClass string `json:"hazardClass"` // 3
-	SafetyNotes string `json:"safetyNotes"` // put other safety info here: "GHS Flammable liquid cateogry: 3;"
-}
-
-type PayloadChemical struct { // <<<<<<<
-	Name        string           `json:"name"` // 1-butanol
-	Description string           `json:"description"`
-	SafetyInfo  PortalSafetyInfo `json:"safetyInfo"` // JSON object
-}
-
-type PayloadComponent struct { // <<<<<<<
-	RecipeUUID  uuid.UUID `json:"recipeUUID"`
-	RecipeTitle string    `json:"recipeTitle"`
-	Fraction    float64   `json:"fraction"`
-}
-
-type PayloadChemicalRecipe struct { // <<<<<<<
-	Title        string            `json:"name"`         // 99.9%
-	ChemicalUUID uuid.UUID         `json:"chemicalUUID"` // UUID of butuanol
-	Components   []PortalComponent `json:"components"`   // emtpy if it's a supplied chemical - list of inputs
-}
-
-type PayloadChemicalInstance struct {
-	ID               int64                     `json:"id"`
-	RecipeUUID       uuid.UUID                 `json:"recipeUUID"`
-	Amount           float64                   `json:"amount"`
-	Owner            uuid.UUID                 `json:"owner"`
-	Components       []PortalComponentInstance `json:"inputComponentInstances"`
-	HomeLocationUUID uuid.UUID                 `json:"locationUUID"`
-	SupplierUUID     uuid.UUID                 `json:"supplierUUID"`
-	ParentUUID       uuid.UUID                 `json:"parentUUID"`
-
-	ManufactureDate string  `json:"manufactureDate"`
-	ExpirationDate  string  `json:"expirationDate"`
-	LotNumber       string  `json:"lotNumber"`
-	Label           string  `json:"label"`
-	GrossWeight     float64 `json:"grossWeight"`
-	NetWeight       float64 `json:"netWeight"`
-	Notes           string  `json:"notes"`
-}
-
-type ProcessingResult struct {
-	FileRowNum  int
-	Step        string // check chemical, create chemical, or etc.
-	Status      string // success or error
-	DatabaseID  string // ID, if successfully pushed to the database
-	ErrorMsg    string
-	ProcessedAt time.Time
-}
-
 // --- main function ---
 func main() {
+
+	envFileName := "chemical_inventory.env"
+	csvFilename := "chemicals-05-20-16-55.csv"
+
+	// 0. load the column mappings
+	cols := NewColumns()
+	if err := cols.LoadFromEnv(envFileName); err != nil {
+		log.Fatalf("Failed to load column mappings: %v", err)
+	}
+
 	// 1. prepare the processed log file
 	processedLog, err := os.Create("log-" + time.Now().Format("2006-01-02-15-04") + ".csv")
 
@@ -153,9 +45,8 @@ func main() {
 		"ProcessedAt"})
 
 	// 2. open the CSV file
-	filename := "chemicals-05-12-11-17.csv"
 
-	file, err := os.Open(filename)
+	file, err := os.Open(csvFilename)
 	if err != nil {
 		log.Fatalf("failed to open file: %v", err)
 	}
@@ -179,6 +70,7 @@ func main() {
 	createRecipeErrorCount := 0
 	checkRecipeErrorCount := 0
 	errorCount := 0
+
 	for {
 		fmt.Printf("\rProcessing row %d \n", rowNum)
 		row, err := reader.Read()
@@ -194,7 +86,7 @@ func main() {
 		}
 
 		fmt.Println("Step 0: Validating required fields")
-		err = checkIfRequiredFieldsPresent("chemical", row)
+		err = checkIfRequiredFieldsPresent("chemical", row, cols)
 		if err != nil {
 			fmt.Printf("Validation error in row %d: %v - skipping\n", rowNum, err)
 			writeProcessedLog(writer, rowNum, "Validate row ", "missing chemical name", "", err.Error())
@@ -207,16 +99,31 @@ func main() {
 		fmt.Println("Step 1: Processing chemical data and safety info")
 
 		notes := ""
-		if row[18] != "" {
-			notes = "GHS Flammable liquid category: " + row[18]
+
+		if cols.HasColumn(cols.GhsFlammableLiquidCategory) {
+			value, err := cols.GetValueFromRow(row, cols.GhsFlammableLiquidCategory)
+			if err == nil && value != "" {
+				notes = "GHS Flammable liquid category: " + value
+			} else {
+				fmt.Println(err)
+			}
+
 		}
 
+		name, err := cols.GetValueFromRow(row, cols.ChemicalName)
+		if err != nil {
+			fmt.Println(err)
+		}
+		cas, _ := cols.GetValueFromRow(row, cols.CasNumber)
+		UNnumber, _ := cols.GetValueFromRow(row, cols.UnNumber)
+		hazardClass, _ := cols.GetValueFromRow(row, cols.HazardClass)
+
 		pChemical := PayloadChemical{
-			Name: removeExtraSpace(row[4]),
+			Name: removeExtraSpace(name),
 			SafetyInfo: PortalSafetyInfo{
-				CasNumber:   row[6],
-				UNNumber:    row[15],
-				HazardClass: row[16],
+				CasNumber:   cas,
+				UNNumber:    UNnumber,
+				HazardClass: hazardClass,
 				SafetyNotes: notes,
 			},
 		}
@@ -251,7 +158,7 @@ func main() {
 
 		fmt.Println("Step 2: Processing chemical recipe data - if there's chem recipe information to process")
 
-		err = checkIfRequiredFieldsPresent("recipe", row)
+		err = checkIfRequiredFieldsPresent("recipe", row, cols)
 		if err != nil {
 			fmt.Printf("Recipe title is empty - skipping\n")
 			writeProcessedLog(writer, rowNum, "Validate row", "missing recipe title", "", "recipe title is empty")
@@ -268,7 +175,8 @@ func main() {
 				continue
 			}
 
-			recipeTitle := removeExtraSpace(row[5])
+			recipeTitle, _ := cols.GetValueFromRow(row, cols.RecipeTitle)
+			recipeTitle = removeExtraSpace(recipeTitle)
 			chemicalUUID := uuid.MustParse(chemicalID)
 
 			pRecipe := PayloadChemicalRecipe{
@@ -276,9 +184,9 @@ func main() {
 				ChemicalUUID: chemicalUUID,
 			}
 
-			fmt.Printf("double check payload info as right now the check won't work any ways - title: %s\n", pRecipe.Title)
-			fmt.Printf("double check  chemicalID: %s\n", pRecipe.ChemicalUUID)
-			fmt.Printf("ChemicalUUID type: %T\n", pRecipe.ChemicalUUID)
+			// fmt.Printf("double check payload info as right now the check won't work any ways - title: %s\n", pRecipe.Title)
+			// fmt.Printf("double check  chemicalID: %s\n", pRecipe.ChemicalUUID)
+			// fmt.Printf("ChemicalUUID type: %T\n", pRecipe.ChemicalUUID)
 
 			res, recipeID, err := checkIfChemicalRecipeExistsInDB(pRecipe.Title, chemicalID)
 			if err != nil {
@@ -308,11 +216,42 @@ func main() {
 				createdRecipeCount++
 			}
 		}
-		// TODO -3. create instance
+
+		// UPDATE MODEL;
+		// TODO -3. create owner
+		// we might just use a default owner for now
+
+		// TODO -4. create home locations
+
+		// check if location already exists
+
+		// TODO -5. create supplier
+
+		// check if supplier with the same name already exists
+
+		// TODO - 6. Create instance
+
+		// check if chemical with the same CIID already exists
+		// if not, check if there's a parentID....
+
+		// payloadChemicalInstance := PayloadChemicalInstance{
+		// 	ID:               int64(row[0]), // B
+		// 	RecipeUUID:       uuid.MustParse(recipeID),
+		// 	Amount:           float64(row[10]), // L
+		// 	// Owner:         TBD
+		// 	Components:       []PortalComponentInstance{},
+		// 	// HomeLocationUUID: uuid.MustParse(row[12]), // M
+		// 	// SupplierUUID:     uuid.MustParse(row[13]), // H
+		// 	// ParentUUID:       uuid.MustParse(row[14]), // ....
+		// 	ManufactureDate:  row[15],
+		// 	ExpirationDate:   row[16], // V
+		// 	LotNumber:        row[17], // J
+		// }
 
 		rowNum++
 
 	}
+
 	fmt.Println()
 
 	fmt.Println("\n=== Processing Summary ===")
@@ -451,9 +390,13 @@ func createNewChemicalRecipe(pRecipe PayloadChemicalRecipe) (string, error) {
 		resp.StatusCode(), resp.String())
 }
 
-func checkIfRequiredFieldsPresent(recordType string, row []string) error {
+func checkIfRequiredFieldsPresent(recordType string, row []string, cols *Columns) error {
 	if recordType == "chemical" {
-		if row[4] == "" {
+		name, err := cols.GetValueFromRow(row, cols.ChemicalName)
+		if err != nil {
+			return err
+		}
+		if name == "" {
 			return fmt.Errorf("missing chemical name")
 		}
 
@@ -461,7 +404,11 @@ func checkIfRequiredFieldsPresent(recordType string, row []string) error {
 	}
 
 	if recordType == "recipe" {
-		if row[5] == "" {
+		title, err := cols.GetValueFromRow(row, cols.RecipeTitle)
+		if err != nil {
+			return err
+		}
+		if title == "" {
 			return fmt.Errorf("missing recipe title")
 		}
 
